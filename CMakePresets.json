@@ -1,0 +1,20 @@
+{
+    "version":1,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 19,
+        "patch": 0
+    },
+    "configurePresets":[
+        {
+            "name": "VS2019",
+            "displayName": "Visual Studio 2019",
+            "description": "Default build using VS2019",
+            "generator": "Visual Studio 16 2019",
+            "binaryDir": "${sourceParentDir}/build_vs2019",
+            "cacheVariables":{
+                "CMAKE_INSTALL_PREFIX": "${sourceParentDir}/install"
+            }
+        }
+    ]
+}
